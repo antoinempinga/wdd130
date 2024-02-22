@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root {
+  --primary-color: #615ea6 ;
+  --secondary-color: #9000ff ;
+  --accent1-color: #177832;
+  --accent2-color: #054223;
+  --heading-font: "Playfair Display', serif;";
+  --paragraph-font: Playfair display, Helvetica, sans-serif;
+  --nav-link-color: #396E94;
+  --nav-background-color: #D4AC0D;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #396E94;
+}
+h1 {
+    font-weight: bold;
+    padding-left:5%;
+    color: #177832;
+}
+label{
+    font-size: 20px;
+    padding: 5px;
+    margin: 6px;
+}
+main{
+    padding-left: 30px;
+    box-shadow: var(--accent2-color) 10px 12px 12px;
+    width: 500px;
+    margin-left: 50px;
+}
+input{
+    padding: 6px 22%;
+}
+select{
+    padding:6px 22%;
+}
+option{
+    font-family: var(--heading-font);
+    font-weight: bold;
+}
+.bouton{
+    padding: 15px;
+    text-align: center;
+    font-size: large;
+    color: var(--nav-hover-link-color);
+    font-weight: bold;
+    background-color: blue;
+    font-family: var(--paragraph-font);
+}
+.sociallinks {
+    padding-left: 300px;
+    display: flex;
+}
+.sociallinks img{
+    width: 35px;
+    margin: 5px;
+}
+footer{
+    max-width:auto;
+    border: 1px solid rgba(37, 19, 6, 0.781);
+    text-align: justify;
+    text-decoration: none;
+    background-color:var(--accent1-color); 
+    font-family: var(--heading-font);
+}

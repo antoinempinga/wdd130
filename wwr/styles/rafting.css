@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root {
+  --primary-color: #615ea6 ;
+  --secondary-color: #9000ff ;
+  --accent1-color: #177832;
+  --accent2-color: #054223;
+  --heading-font: "Playfair Display', serif;";
+  --paragraph-font: Playfair display, Helvetica, sans-serif;
+  --nav-link-color: #396E94;
+  --nav-background-color: #D4AC0D;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #396E94;
+}
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2em;
+    font-size: 18px;
+    text-align: justify;
+}
+.form {
+    position: absolute;
+    margin-top: -8%;
+    width: 50%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    color: var(--accent1-color);
+}
+.acta {
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 5%;
+    color:var(--nav-hover-link-color);
+    background-color:var(--accent1-color);
+}
+.gras {
+    position: absolute;
+    margin-top: -625px;
+    margin-left: 0.5rem;
+    text-align: center;
+    font-size:41.3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: var(--nav-hover-link-color);
+    background-color: var(--accent1-color);
+    opacity: 90%;
+}
+.adventures{
+    position: absolute;
+    margin-top: -7%;
+    text-align: center;
+    font-size: 44px;
+    margin-left: 15px;
+  
+    background-color: var(--nav-hover-link-color);
+    opacity: 69%;
+}
+.newlettes {
+    display: inline-flex;
+    text-align: center;
+}
+.formme {
+    display: inline-flex;
+    padding-left: 10px;
+    box-shadow: green 2px 3px 5px;
+    background-color: blue;
+    font-size: 13px;
+    opacity: 90%;
+    color: white;
+    padding: 0.9rem;
+}
+.formme input{
+    padding: 6px;
+    color: green;
+    font-weight: bold;
+}
+.formme button {
+    padding: 5px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+.booktrip {
+    position: absolute;
+    margin-top: -12%;
+    padding: 12px;
+    text-align: center;
+    font-size: 19px;
+    background-color: black;
+    margin-left: 25rem;
+}
+.booktr {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.mainone {
+    font-size: 40px;
+    text-align:center;
+}
+.additional,.seco {
+    width: 420px;
+    padding: 35px;
+}
+header{
+    grid-area: span;
+}
+.nav-bar{
+    padding: 2px;
+    width:auto; 
+    font-size: 35px;
+}
+.grade {
+    display: inline-flex;
+}
+.grade img {
+    margin: 5px;
+    width: 310px;
+}
+.grade h2{
+    text-align: center;
+}
+.grade p {
+    text-align: center;
+    font-size: 17px;
+}
+h1 {
+    text-align: center;
+    color: var(--nav-hover-link-color);
+    font-family: var(--paragraph-font);
+    background-color:#d4ac0dab;
+    padding: 10px;
+}
+.nav-bar a, form a {
+    padding: 3px;
+    color:var(--accent2-color);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 8px;
+}
+.back {
+    width: 960px;
+}
+.nav-bar img {
+    width: 105px;
+}
+.nav-bar a:hover{
+    color:var(--nav-background-color);
+}
+.img {
+    width: 150px;
+}
+h2 {
+    position: relative;
+}
+article {
+    position: absolute;
+    margin-top: -15%;
+    width: 45%;
+    margin-left: 40px;
+    background-color:#d4ac0d98;
+    border: #1778336e solid 3px;
+    text-align: justify;
+    font-size: 23px;
+    font-weight: bold;
+}
+.history {
+    font-family: var(--paragraph-font);
+}
+.bouton{
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    color: var(--nav-hover-link-color);
+    font-weight: bold;
+    background-color: blue;
+    font-family: var(--paragraph-font);
+}
+.mainhistory {
+    display:inline-flex;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.beach {
+    display: contents;
+}
+.beach img {
+    width: 100%;
+}
+.ost {
+    width: auto;
+    margin: 0.50cm;
+}
+.dnd {
+    width: auto;
+    margin: 0.50cm;
+}
+.text {
+    text-align: center;
+}
+article img {
+    float: right;
+}
+section img {
+    width: 100%;
+}
+.adv {
+    text-align: center;
+}
+.adventure {
+    display: flex;
+}
+.adventure img {
+    width: 217px;
+    margin: 12px;
+}
+.sociallinks {
+    padding-left: 300px;
+    display: flex;
+}
+.sociallinks img{
+    width: 35px;
+    margin: 5px;
+}
+footer{
+    max-width: 960px;
+    border: 1px solid rgba(37, 19, 6, 0.781);
+    text-align: justify;
+    text-decoration: none;
+    background-color:var(--accent1-color); 
+    font-family: var(--heading-font);
+}
+.info {
+    display: inline-flex;
+    margin: 5px;
+}
+.employes {
+    text-align: center;
+    display: inline-flex;
+}
+.employes img{
+    width: 310px;
+    margin: 6px;
+}
